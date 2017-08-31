@@ -1,0 +1,31 @@
+{
+  "name": "konstantinkuklin/doctrine-compressed-fields-bundle",
+  "description": "Symfony DoctrineCompressedFieldsBundle",
+  "keywords": ["database", "doctrine", "symfony"],
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Konstantin Kuklin",
+      "email": "konstantin.kuklin@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "KonstantinKuklin\\DoctrineCompressedFieldsBundle\\": ""
+    },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  },
+  "require": {
+    "php": ">=7.0",
+    "symfony/framework-bundle": "^2.3|~3.0",
+    "doctrine/doctrine-bundle": "~1.0",
+    "konstantinkuklin/doctrine-compressed-fields": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.3|^6.0"
+  }
+}
